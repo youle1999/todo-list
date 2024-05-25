@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAN YOU LE</title>
+    <link rel="stylesheet" href="styles.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <div id="loading">
+        <div class="loader"></div>
+    </div>
+    <div class="video-background">
+        <video autoplay muted loop id="myVideo">
+            <source src="https://s3.ap-northeast-1.amazonaws.com/tanyoule.com/tanyoule/Comp-1_43.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+    </div>
+    
+    
+    <script>
+        window.addEventListener('load', function() {
+            const loadingScreen = document.getElementById('loading');
+            // Introduce a slight delay (e.g., 500ms) before hiding the loading screen
+            setTimeout(() => {
+                loadingScreen.style.display = 'none';
+            }, 2000); // 500ms delay
+        });
+    </script>
+    
+    
+    <!-- Hexagonal grid -->
+    <!-- <div class="hex-grid" id="hexGrid"></div> -->
+    <!-- icon -->
+
+    <header class="navbar">
+        <div class="container">
+            <div class="logo">
+                <img src="path/to/your/logo.png" alt="Logo">hello
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#">Schedules</a></li>
+                    <li><a href="#">Search</a></li>
+                    <li><a href="#">Tracking</a></li>
+                    <li><a href="#">EN</a></li>
+                    <li><a href="#" class="btn">myMSC</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+
+    <header>
+
+
+        
+        <div ><br><br><br><br></div>
+        <div class="social-buttons">
+            <a href="https://www.facebook.com/gin.tanyoule" class="button facebook" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/tyl.le?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr" class="button instagram" title="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/you-le-tan-b2a094259/" class="button linkedin" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="mailto:chem18gin@gmail.com" class="button email" title="Email"><i class="fas fa-envelope"></i></a>
+            <a href="https://github.com/youle1999" class="button github" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://line.me/ti/p/URU5yCKoJf" class="button line" title="LINE">
+                <img src="https://s3.ap-northeast-1.amazonaws.com/tanyoule.com/tanyoule/icons8-line-app-40.png">
+            </a>
+        </div>
+        <!-- <h1 id="wave-text">TAN YOU LE <br>タンユーレ</h1> -->
+
+    </header>
+
+    <!-- Resume content -->
+    <div class="resume-content">
+        <div class="nav-container">
+            <nav>
+                <a href="#activity">
+                    <img src="https://cdn-icons-png.flaticon.com/128/3588/3588723.png" alt="Activity Icon">
+                    課外活動
+                </a>
+                <a href="#skills">
+                    <img src="https://cdn-icons-png.flaticon.com/128/1787/1787077.png" alt="Skills Icon">
+                    技術・知識
+                </a>
+                <a href="#location">
+                    <img src="https://cdn-icons-png.flaticon.com/128/3750/3750400.png" alt="Location Icon">
+                    住所・地域
+                </a>
+            </nav>
+        </div>
+        <!-- <header>
+            <h1 id="wave-text">TAN YOU LE <br>タンユーレ</h1>
+            <a href="mailto:chem18gin@gmail.com" class="email-link" title="Send Email">
+                <svg class="email-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20,4H4C2.9,4,2,4.9,2,6v12c0,1.1,0.9,2,2,2h16c1.1,0,2-0.9,2-2V6C22,4.9,21.1,4,20,4z M20,18H4V8l8,5l8-5V18z M12,11L4,6h16 L12,11z"/>
+                </svg>
+                chem18gin@gmail.com
+            </a>
+            <a href="https://www.instagram.com/tyl.le/" class="instagram-link" target="_blank">
+                <i class="fab fa-instagram"></i> tyl.le
+            </a>
+        </header> -->
+       
+        <section class="section">
+            <h2>私について</h2>
+            <div class="container">
+                
+                <div class="card">
+                    <div class="icon"><img src="https://s3.ap-northeast-1.amazonaws.com/tanyoule.com/tanyoule/partners.png" alt="Icon 1"></div>
+                    <h3>Teamwork</h3>
+                    <p>Enthusiastic IT student with a passion for learning, teamwork, and sports. Proven ability to work effectively with diverse groups and a strong background in team sports like basketball.</p>
+                </div>
+                <div class="card">
+                    <div class="icon"><img src="https://s3.ap-northeast-1.amazonaws.com/tanyoule.com/tanyoule/soft-skills.png" alt="Icon 2"></div>
+                    <h3>Skills</h3>
+                    <p>IT student with extensive knowledge in AWS and Azure services, including EC2, Route53, S3, HealthCloud, and Dashboards. Adept at leveraging cloud technologies to optimize business operations.</p>
+                    
+                </div>
+                <div class="card">
+                    <div class="icon"><img src="https://s3.ap-northeast-1.amazonaws.com/tanyoule.com/tanyoule/technical-support.png" alt="Icon 3"></div>
+                    <h3>Love for IT Languages</h3>
+                    <p>Passionate IT student with a deep love for programming languages and a broad knowledge base. Experienced in multiple IT languages with a strong record of successful projects.</p>
+                    
+                </div>
+                <div class="card">
+                    <div class="icon"><img src="https://s3.ap-northeast-1.amazonaws.com/tanyoule.com/tanyoule/values.png" alt="Icon 4"></div>
+                    <h3>Motto and Values</h3>
+                    <p>Driven IT student guided by the values of diligence, perseverance, and compassion.</p>
+                    
+                </div>
+        
+        </section>
+
+        <section class="section" id="1">
+            <h2>学校課題</h2>
+            <div class="school">
+                <div class="year">
+                    <div class="container">
+                    <p class="school-title">１年生 - <span class="school-company">アプリ開発</span></p>
+                    <p class="school-dates">２０２２年４月 - ２０２３年３月</p>
+                    
+                    <a href="https://s3.ap-northeast-1.amazonaws.com/tanyoule.com/year1.html" class="cute-button">Learn More</a>
+                    
+                        <p>ゲームとウェブサイトを作成</p>
+                     
+                    </div>
+                </div>
+
+                <div class="year">
+                    <div class="container">
+                    <p class="school-title">２年生 - <span class="school-company">アプリ開発</span></p>
+                    <p class="school-dates">２０２３年４月 - ２０２４年３月</p>
+                    
+                    <a href="https://s3.ap-northeast-1.amazonaws.com/tanyoule.com/year2.html" class="cute-button">Learn More</a>
+                    
+                        <p>セキュリティ、API、自動化作業</p>
+                    </div>
+                </div>
+
+                <div class="year">
+                    <div class="container">
+                    <p class="school-title">３年生 - <span class="school-company">アプリ開発</span></p>
+                    <p class="school-dates">２０２４年４月 - ２０２５年３月</p>
+                    
+                    <a href="https://s3.ap-northeast-1.amazonaws.com/tanyoule.com/year3.html" class="cute-button">Learn More</a>
+                    
+                        <p>データ分析、クラウドサービス</p>
+                    </div>
+                    
+                </div>
+
+                <div class="year">
+                    <div class="container">
+                    <p class="school-title">４年生 - <span class="school-company">アプリ開発</span></p>
+                    <p class="school-dates">２０２５年４月 - ２０２６年３月</p>
+                    
+                    <!-- <a href="https://s3.ap-northeast-1.amazonaws.com/tanyoule.com/year4.html" class="cute-button">Learn More</a> -->
+                    
+                        <p>Coming soon!</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="school-learning">
+            <h2>チームワーク</h2>
+            <div class="school">
+            <div class="learning-block">
+                
+                <p></p>
+                <div class="container">
+                <a href="https://www.google.com/search?q=s%26p500&oq=s%26p500&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIJCAQQABgKGIAEMgkIBRAAGAoYgAQyBwgGEAAYgAQyBwgHEAAYgAQyBwgIEAAYgAQyBwgJEAAYgASoAgiwAgE&sourceid=chrome&ie=UTF-8" target="_blank">
+                    <div class="portfolio-text-button">VIEW</div>
+                </a>
+            </div>
+                <ul>
+                    <li>Lesson 1: Brief description of what you learned.</li>
+                    <li>Lesson 2: Brief description of what you learned.</li>
+                    <li>Lesson 3: Brief description of what you learned.</li>
+                    <!-- Add more lessons as needed -->
+                </ul>
+            </div>
+        
+            <div class="learning-block">
+                <p></p>
+                <div class="container">
+                <a href="https://www.google.com/search?q=s%26p500&oq=s%26p500&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIJCAQQABgKGIAEMgkIBRAAGAoYgAQyBwgGEAAYgAQyBwgHEAAYgAQyBwgIEAAYgAQyBwgJEAAYgASoAgiwAgE&sourceid=chrome&ie=UTF-8" target="_blank">
+                    <div class="portfolio-text-button">VIEW</div>
+                </a>
+            </div>
+                <ul>
+                    <li>Lesson 1: Brief description of what you learned.</li>
+                    <li>Lesson 2: Brief description of what you learned.</li>
+                    <li>Lesson 3: Brief description of what you learned.</li>
+                    <!-- Add more lessons as needed -->
+                </ul>
+            </div>
+        </div>
+        </section>
+        
+        
+
+        <section class="section" id="activity">
+            <h2>課外活動</h2>
+            <div class="container">
+                <p>coming soon!</p>
+            </div>
+            
+        </section>
+
+        
+
+        <section class="section1" id="skills">
+            <h2>技術・知識</h2>
+            <ul class="grid">
+                <li class="grid-item">
+                    Python
+                    <div class="bar-container">
+                        <span class="bar bar-python"></span>
+                        <span class="percentage">70%</span>
+                    </div>
+                </li>
+                <li class="grid-item">
+                    Ruby
+                    <div class="bar-container">
+                        <span class="bar bar-ruby"></span>
+                        <span class="percentage">50%</span>
+                    </div>
+                </li>
+                <li class="grid-item">
+                    PHP
+                    <div class="bar-container">
+                        <span class="bar bar-php"></span>
+                        <span class="percentage">80%</span>
+                    </div>
+                </li>
+                <li class="grid-item">
+                    Laravel
+                    <div class="bar-container">
+                        <span class="bar bar-laravel"></span>
+                        <span class="percentage">60%</span>
+                    </div>
+                </li>
+                <li class="grid-item">
+                    R+
+                    <div class="bar-container">
+                        <span class="bar bar-r"></span>
+                        <span class="percentage">50%</span>
+                    </div>
+                </li>
+                <li class="grid-item">
+                    JavaScript
+                    <div class="bar-container">
+                        <span class="bar bar-javascript"></span>
+                        <span class="percentage">80%</span>
+                    </div>
+                </li>
+                <li class="grid-item">
+                    HTML & CSS
+                    <div class="bar-container">
+                        <span class="bar bar-html-css"></span>
+                        <span class="percentage">95%</span>
+                    </div>
+                </li>
+                <li class="grid-item">
+                    SQL
+                    <div class="bar-container">
+                        <span class="bar bar-sql"></span>
+                        <span class="percentage">50%</span>
+                    </div>
+                </li>
+                <li class="grid-item">
+                    Excel
+                    <div class="bar-container">
+                        <span class="bar bar-excel"></span>
+                        <span class="percentage">70%</span>
+                    </div>
+                </li>
+                <li class="grid-item">
+                    PowerPoint
+                    <div class="bar-container">
+                        <span class="bar bar-powerpoint"></span>
+                        <span class="percentage">70%</span>
+                    </div>
+                </li>
+            </ul>
+
+            <h2>言語能力のレベル</h2>
+            <div class="container">
+            <ul class="grid">
+                <li class="grid-item">
+                    <div class="stars">
+                        <span>英語　　　★★★★★</span><span class="percentage"></span>
+                    </div>
+                </li>
+                <li class="grid-item">
+                    <div class="stars">
+                        <span>中国語　　★★★★☆</span><span class="percentage"></span>
+                    </div>
+                </li>
+                <li class="grid-item">
+                    <div class="stars">
+                        <span>日本語　　★★★☆☆</span><span class="percentage"></span>
+                    </div>
+                </li>
+                <li class="grid-item">
+                    <div class="stars">
+                        <span>マレー語　★★★☆☆</span><span class="percentage"></span>
+                    </div>
+                </div>
+                </li>
+            </ul>
+        </section>
+        <section class="section1">
+
+             <h2>住所</h2>
+        </section>
+        <section class="section10" id="location">
+           
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6564.7474950573!2d135.51840989674892!3d34.64526296825776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000dde18f48e919%3A0x289859f5aee01762!2z44CSNTQ1LTAwMDEg5aSn6Ziq5bqc5aSn6Ziq5biC6Zi_5YCN6YeO5Yy65aSp546L5a-655S65YyX!5e0!3m2!1sja!2sjp!4v1715394343763!5m2!1sja!2sjp" width="auto" height="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="social-buttons">
+                <a href="https://www.facebook.com/gin.tanyoule" class="button facebook" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/tyl.le?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr" class="button instagram" title="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/you-le-tan-b2a094259/" class="button linkedin" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="mailto:chem18gin@gmail.com" class="button email" title="Email"><i class="fas fa-envelope"></i></a>
+                <a href="https://github.com/youle1999" class="button github" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://line.me/ti/p/URU5yCKoJf" class="button line" title="LINE">
+                    <img src="https://s3.ap-northeast-1.amazonaws.com/tanyoule.com/tanyoule/icons8-line-app-40.png">
+                </a>
+            </div>
+        </section>
+    </div>
+
+    
+
+    <footer class="footer">
+        &copy; 2024 TANYOULE. All Rights Reserved.
+    </footer>
+
+    
+</body>
+</html>
